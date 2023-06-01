@@ -1,0 +1,14 @@
+[
+    {
+        "package": "bpbounds",
+        "url": "https://github.com/remlapmot/bpbounds"
+    },
+    {
+        "package": "knitexercise",
+        "url": "https://github.com/remlapmot/knitexercise"
+    },
+    {
+        "package": "OneSampleMR",
+        "url": "https://github.com/remlapmot/OneSampleMR"
+    }
+]
