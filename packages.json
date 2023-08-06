@@ -10,5 +10,9 @@
     {
         "package": "OneSampleMR",
         "url": "https://github.com/remlapmot/OneSampleMR"
+    },
+    {
+        "package": "Statamarkdown",
+        "url": "https://github.com/Hemken/Statamarkdown"
     }
 ]
