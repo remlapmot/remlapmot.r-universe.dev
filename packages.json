@@ -8,6 +8,10 @@
         "url": "https://github.com/remlapmot/knitexercise"
     },
     {
+        "package": "mrbayes",
+        "url": "https://github.com/okezie94/mrbayes"
+    },
+    {
         "package": "OneSampleMR",
         "url": "https://github.com/remlapmot/OneSampleMR"
     },
