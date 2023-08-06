@@ -1,5 +1,5 @@
-# remlapmot.r-universe.dev
 [![:name status badge](https://remlapmot.r-universe.dev/badges/:name)](https://remlapmot.r-universe.dev/:name)
+# remlapmot.r-universe.dev :rocket:
 [![:registry status badge](https://remlapmot.r-universe.dev/badges/:registry)](https://remlapmot.r-universe.dev/:registry)
 [![:total status badge](https://remlapmot.r-universe.dev/badges/:total)](https://remlapmot.r-universe.dev/:total)
 
