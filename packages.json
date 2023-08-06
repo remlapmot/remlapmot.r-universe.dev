@@ -18,5 +18,9 @@
     {
         "package": "Statamarkdown",
         "url": "https://github.com/Hemken/Statamarkdown"
+    },
+    {
+        "package": "tmsens",
+        "url": "https://github.com/dea-hazewinkel/tmsens"
     }
 ]
