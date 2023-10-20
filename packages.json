@@ -16,6 +16,10 @@
         "url": "https://github.com/remlapmot/OneSampleMR"
     },
     {
+        "package": "osutils",
+        "url": "https://github.com/wjchulme/osutils"
+    },
+    {
         "package": "Statamarkdown",
         "url": "https://github.com/Hemken/Statamarkdown"
     },
