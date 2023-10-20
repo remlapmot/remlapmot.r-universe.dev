@@ -18,7 +18,7 @@ For Windows and Intel Mac users the installation code to obtain a binary version
 install.packages(
   'knitexercise',
   repos = c(
-    'https://mrcieu.r-universe.dev',
+    'https://remlapmot.r-universe.dev',
     'https://cloud.r-project.org'
   )
 )
@@ -31,7 +31,7 @@ For Ubuntu Jammy Jellyfish users running R through RStudio Desktop or RStudio Se
 install.packages(
   'knitexercise',
   repos = c(
-    'https://mrcieu.r-universe.dev/bin/linux/jammy/4.3/',
+    'https://remlapmot.r-universe.dev/bin/linux/jammy/4.3/',
     'https://packagemanager.posit.co/cran/__linux__/jammy/latest',
     'https://cloud.r-project.org'
   )
@@ -54,7 +54,7 @@ options(HTTPUserAgent = sprintf(
 install.packages(
   'knitexercise',
   repos = c(
-    'https://mrcieu.r-universe.dev/bin/linux/jammy/4.3/',
+    'https://remlapmot.r-universe.dev/bin/linux/jammy/4.3/',
     'https://packagemanager.posit.co/cran/__linux__/jammy/latest',
     'https://cloud.r-project.org'
   )
