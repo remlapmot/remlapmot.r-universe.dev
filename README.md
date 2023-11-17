@@ -64,3 +64,12 @@ install.packages(
   )
 )
 ```
+
+### WebR
+
+WASM binaries for WebR users are available with the code
+
+```r
+install.packages('knitexercise',
+  repos = c('https://remlapmot.r-universe.dev', 'https://repo.r-wasm.org'))
+```
