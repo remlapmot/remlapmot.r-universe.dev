@@ -11,6 +11,8 @@ The corresponding source universe repo is at <https://github.com/r-universe/reml
 
 To install binary R packages from my R-universe, include the relevant URL in your `repos` list as shown below (or set the `repos` option using `options(repos = c(...)))`.
 
+### Windows and Intel Macs
+
 For Windows and Intel Mac users the installation code to obtain a binary version of **knitexercise** is
 
 ```r
@@ -23,6 +25,8 @@ install.packages(
   )
 )
 ```
+
+### Ubuntu Jammy Jellyfish
 
 For Ubuntu Jammy Jellyfish users running R through RStudio Desktop or RStudio Server the installation code is
 
