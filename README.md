@@ -67,7 +67,7 @@ install.packages(
 
 ### WebR
 
-WASM binaries for WebR users are available with the code
+WASM binaries for [WebR](https://docs.r-wasm.org/webr/latest/) users are available with the code
 
 ```r
 install.packages('knitexercise',
