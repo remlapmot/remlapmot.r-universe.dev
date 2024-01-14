@@ -14,7 +14,7 @@ To install binary R packages from my R-universe, include the relevant URL in you
 
 ### Windows and Macs
 
-For Windows and Mac users (for both Intel Macs and Apple silicon Macs) the installation code to obtain a binary version of **knitexercise** is
+For Windows and Mac users (for both Intel Macs and Apple Silicon [aka M1, M2, and M3] Macs) the installation code to obtain a binary version of **knitexercise** is
 
 ```r
 # Installation code for Windows and Intel Mac users
