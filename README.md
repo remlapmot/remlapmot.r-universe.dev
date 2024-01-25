@@ -10,7 +10,7 @@ The corresponding source universe repo is at <https://github.com/r-universe/reml
 
 ## How to install binary R packages from this R-universe
 
-To install binary R packages from my R-universe, include the relevant URL in your `repos` list as shown below (or set the `repos` option using `options(repos = c(...)))`.
+To install binary R packages from my R-universe, include the relevant URL in your `repos` list as shown below (or set the `repos` option using `options(repos = c(...))` which you could do in your *.Rprofile* file).
 
 ### Windows and Macs
 
