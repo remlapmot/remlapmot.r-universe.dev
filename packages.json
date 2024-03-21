@@ -1,5 +1,4 @@
 [
-    }
   {
     "package": "bpbounds",
     "url": "https://github.com/remlapmot/bpbounds"
@@ -31,4 +30,10 @@
   {
     "package": "tmsens",
     "url": "https://github.com/dea-hazewinkel/tmsens"
+  },
+  {
+    "package": "TwoSampleMR",
+    "url": "https://github.com/MRCIEU/TwoSampleMR",
+    "branch": "*release"
+  }
 ]
