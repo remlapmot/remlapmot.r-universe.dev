@@ -1,34 +1,34 @@
 [
-    {
-        "package": "bpbounds",
-        "url": "https://github.com/remlapmot/bpbounds"
-    },
-    {
-        "package": "dd4d",
-        "url": "https://github.com/wjchulme/dd4d"
-    },
-    {
-        "package": "knitexercise",
-        "url": "https://github.com/remlapmot/knitexercise"
-    },
-    {
-        "package": "mrbayes",
-        "url": "https://github.com/okezie94/mrbayes"
-    },
-    {
-        "package": "OneSampleMR",
-        "url": "https://github.com/remlapmot/OneSampleMR"
-    },
-    {
-        "package": "osutils",
-        "url": "https://github.com/wjchulme/osutils"
-    },
-    {
-        "package": "Statamarkdown",
-        "url": "https://github.com/Hemken/Statamarkdown"
-    },
-    {
-        "package": "tmsens",
-        "url": "https://github.com/dea-hazewinkel/tmsens"
     }
+  {
+    "package": "bpbounds",
+    "url": "https://github.com/remlapmot/bpbounds"
+  },
+  {
+    "package": "dd4d",
+    "url": "https://github.com/wjchulme/dd4d"
+  },
+  {
+    "package": "knitexercise",
+    "url": "https://github.com/remlapmot/knitexercise"
+  },
+  {
+    "package": "mrbayes",
+    "url": "https://github.com/okezie94/mrbayes"
+  },
+  {
+    "package": "OneSampleMR",
+    "url": "https://github.com/remlapmot/OneSampleMR"
+  },
+  {
+    "package": "osutils",
+    "url": "https://github.com/wjchulme/osutils"
+  },
+  {
+    "package": "Statamarkdown",
+    "url": "https://github.com/Hemken/Statamarkdown"
+  },
+  {
+    "package": "tmsens",
+    "url": "https://github.com/dea-hazewinkel/tmsens"
 ]
