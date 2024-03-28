@@ -8,6 +8,11 @@
     "url": "https://github.com/wjchulme/dd4d"
   },
   {
+    "package": "ieugwasr",
+    "url": "https://github.com/MRCIEU/ieugwasr",
+    "branch": "*release"
+  },
+  {
     "package": "knitexercise",
     "url": "https://github.com/remlapmot/knitexercise"
   },
