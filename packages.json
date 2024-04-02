@@ -33,6 +33,11 @@
     "url": "https://github.com/Hemken/Statamarkdown"
   },
   {
+    "package": "StepReg",
+    "url": "https://github.com/remlapmot/StepReg",
+    "branch": "no-xlsx"
+  },
+  {
     "package": "tmsens",
     "url": "https://github.com/dea-hazewinkel/tmsens"
   },
