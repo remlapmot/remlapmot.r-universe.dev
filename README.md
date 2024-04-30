@@ -70,7 +70,7 @@ install.packages(
 )
 ```
 
-### Ubuntu Jammy Jellyfish
+### Ubuntu Jammy Jellyfish using R 4.3
 
 For Ubuntu Jammy Jellyfish users running R through RStudio Desktop or RStudio Server the installation code is
 
