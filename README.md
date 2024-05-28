@@ -39,7 +39,7 @@ install.packages(
   'TwoSampleMR',
   repos = c(
     'https://mrcieu.r-universe.dev/bin/linux/noble/4.4/',
-    'https://packagemanager.posit.co/cran/__linux__/noble/latest',
+    'https://p3m.dev/cran/__linux__/noble/latest',
     'https://cloud.r-project.org'
   )
 )
@@ -64,7 +64,7 @@ install.packages(
   'TwoSampleMR',
   repos = c(
     'https://mrcieu.r-universe.dev/bin/linux/noble/4.4/',
-    'https://packagemanager.posit.co/cran/__linux__/noble/latest',
+    'https://p3m.dev/cran/__linux__/noble/latest',
     'https://cloud.r-project.org'
   )
 )
@@ -80,7 +80,7 @@ install.packages(
   'knitexercise',
   repos = c(
     'https://remlapmot.r-universe.dev/bin/linux/jammy/4.3/',
-    'https://packagemanager.posit.co/cran/__linux__/jammy/latest',
+    'https://p3m.dev/cran/__linux__/jammy/latest',
     'https://cloud.r-project.org'
   )
 )
@@ -103,7 +103,7 @@ install.packages(
   'knitexercise',
   repos = c(
     'https://remlapmot.r-universe.dev/bin/linux/jammy/4.3/',
-    'https://packagemanager.posit.co/cran/__linux__/jammy/latest',
+    'https://p3m.dev/cran/__linux__/jammy/latest',
     'https://cloud.r-project.org'
   )
 )
