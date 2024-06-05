@@ -27,7 +27,7 @@ install.packages(
 )
 ```
 
-### Ubuntu Noble Numbat using R 4.4
+### Ubuntu Noble Numbat using R-release (version 4.4.#)
 
 #### Ubuntu Noble Numbat using R through RStudio Desktop or RStudio Server
 
@@ -36,9 +36,9 @@ For Ubuntu Noble Numbat users running R through RStudio Desktop or RStudio Serve
 ```r
 # Installation code for Ubuntu Jammy Jellyfish users in RStudio Desktop or Server
 install.packages(
-  'TwoSampleMR',
+  'knitexercise',
   repos = c(
-    'https://mrcieu.r-universe.dev/bin/linux/noble/4.4/',
+    'https://remlapmot.r-universe.dev/bin/linux/noble/4.4/',
     'https://p3m.dev/cran/__linux__/noble/latest',
     'https://cloud.r-project.org'
   )
@@ -61,53 +61,18 @@ options(HTTPUserAgent = sprintf(
 ))
 
 install.packages(
-  'TwoSampleMR',
+  'knitexercise',
   repos = c(
-    'https://mrcieu.r-universe.dev/bin/linux/noble/4.4/',
+    'https://remlapmot.r-universe.dev/bin/linux/noble/4.4/',
     'https://p3m.dev/cran/__linux__/noble/latest',
     'https://cloud.r-project.org'
   )
 )
 ```
 
-### Ubuntu Jammy Jellyfish using R 4.3
+### Ubuntu Noble Numbat using R-devel 4.5
 
-For Ubuntu Jammy Jellyfish users running R through RStudio Desktop or RStudio Server the installation code is
-
-```r
-# Installation code for Ubuntu Jammy Jellyfish users in RStudio Desktop or Server
-install.packages(
-  'knitexercise',
-  repos = c(
-    'https://remlapmot.r-universe.dev/bin/linux/jammy/4.3/',
-    'https://p3m.dev/cran/__linux__/jammy/latest',
-    'https://cloud.r-project.org'
-  )
-)
-```
-
-For Ubuntu Jammy Jellyfish users running R in the Terminal first amend the `HTTPUserAgent` option, as described in the following blog [post](https://tshafer.com/blog/2023/07/posit-package-manager-linux), and then run the Linux installation code above. This is in order to obtain binary packages from the Posit Public Package Manager. If the `HTTPUserAgent` option is not amended it seems that source rather than binary packages are obtained for the Imports dependency packages. So for this case the full installation code is
-
-```r
-# Installation code for Ubuntu Jammy Jellyfish users running R in the Terminal
-options(HTTPUserAgent = sprintf(
-  "R/%s R (%s)",
-  getRversion(),
-  paste(getRversion(),
-        R.version["platform"],
-        R.version["arch"],
-        R.version["os"])
-))
-
-install.packages(
-  'knitexercise',
-  repos = c(
-    'https://remlapmot.r-universe.dev/bin/linux/jammy/4.3/',
-    'https://p3m.dev/cran/__linux__/jammy/latest',
-    'https://cloud.r-project.org'
-  )
-)
-```
+Please use the code in the previous section but ammend the r-universe URL to `https://remlapmot.r-universe.dev/bin/linux/noble/4.5/`.
 
 ### WebR
 
