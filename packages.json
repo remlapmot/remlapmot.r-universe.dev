@@ -42,6 +42,10 @@
     "url": "https://github.com/dea-hazewinkel/tmsens"
   },
   {
+    "package": "TrialEmulation",
+    "url": "https://github.com/Causal-LDA/TrialEmulation"
+  },
+  {
     "package": "TwoSampleMR",
     "url": "https://github.com/MRCIEU/TwoSampleMR",
     "branch": "*release"
