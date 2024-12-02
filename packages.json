@@ -49,5 +49,9 @@
     "package": "TwoSampleMR",
     "url": "https://github.com/MRCIEU/TwoSampleMR",
     "branch": "*release"
+  },
+  {
+    "package": "vscDebugger",
+    "url": "https://github.com/ManuelHentschel/vscDebugger"
   }
 ]
