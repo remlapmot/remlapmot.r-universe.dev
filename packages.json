@@ -4,6 +4,10 @@
     "url": "https://github.com/remlapmot/bpbounds"
   },
   {
+    "package": "colorout",
+    "url": "https://github.com/jalvesaq/colorout"
+  },
+  {
     "package": "dd4d",
     "url": "https://github.com/wjchulme/dd4d"
   },
