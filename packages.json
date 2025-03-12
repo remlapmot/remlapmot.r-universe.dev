@@ -38,6 +38,10 @@
     "url": "https://github.com/wjchulme/osutils"
   },
   {
+    "package": "quickdag",
+    "url": "https://github.com/jrgant/quickdag"
+  },
+  {
     "package": "Statamarkdown",
     "url": "https://github.com/Hemken/Statamarkdown"
   },
