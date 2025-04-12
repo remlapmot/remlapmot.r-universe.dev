@@ -27,7 +27,7 @@ install.packages(
 )
 ```
 
-### Ubuntu Noble Numbat using R-release (version 4.4.#)
+### Ubuntu Noble Numbat using R-release (version 4.5.#)
 
 #### Ubuntu Noble Numbat using R through RStudio Desktop or RStudio Server
 
@@ -38,7 +38,7 @@ For Ubuntu Noble Numbat users running R through RStudio Desktop or RStudio Serve
 install.packages(
   'knitexercise',
   repos = c(
-    'https://remlapmot.r-universe.dev/bin/linux/noble/4.4/',
+    'https://remlapmot.r-universe.dev/bin/linux/noble/4.5/',
     'https://p3m.dev/cran/__linux__/noble/latest',
     'https://cloud.r-project.org'
   )
@@ -63,16 +63,12 @@ options(HTTPUserAgent = sprintf(
 install.packages(
   'knitexercise',
   repos = c(
-    'https://remlapmot.r-universe.dev/bin/linux/noble/4.4/',
+    'https://remlapmot.r-universe.dev/bin/linux/noble/4.5/',
     'https://p3m.dev/cran/__linux__/noble/latest',
     'https://cloud.r-project.org'
   )
 )
 ```
-
-### Ubuntu Noble Numbat using R-devel 4.5
-
-Please use the code in the previous section but ammend the r-universe URL to `https://remlapmot.r-universe.dev/bin/linux/noble/4.5/`.
 
 ### WebR
 
