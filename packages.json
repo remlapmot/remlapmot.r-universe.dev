@@ -39,7 +39,8 @@
   },
   {
     "package": "quickdag",
-    "url": "https://github.com/jrgant/quickdag"
+    "url": "https://github.com/remlapmot/quickdag",
+    "branch": "fix-01"
   },
   {
     "package": "Statamarkdown",
