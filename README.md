@@ -34,12 +34,26 @@ install.packages(
 For Ubuntu Noble Numbat users running R through RStudio Desktop or RStudio Server the installation code is
 
 ```r
-# Installation code for Ubuntu Jammy Jellyfish users in RStudio Desktop or Server
+# Installation code for Ubuntu Noble Numbat users in RStudio Desktop or Server
 install.packages(
   'knitexercise',
   repos = c(
-    'https://remlapmot.r-universe.dev/bin/linux-x86_64/noble/4.5/',
+    'https://remlapmot.r-universe.dev/bin/linux-x86_64/noble/4.5',
     'https://p3m.dev/cran/__linux__/noble/latest',
+    'https://cloud.r-project.org'
+  )
+)
+```
+
+Or you can obtain CRAN binaries from r-universe.
+
+```r
+# Installation code for Ubuntu Noble Numbat users in RStudio Desktop or Server
+install.packages(
+  'knitexercise',
+  repos = c(
+    'https://remlapmot.r-universe.dev/bin/linux-x86_64/noble/4.5',
+    'https://cran.r-universe.dev/bin/linux-x86_64/noble/4.5',
     'https://cloud.r-project.org'
   )
 )
@@ -50,7 +64,7 @@ install.packages(
 For Ubuntu Noble Numbat users running R in a shell first amend the `HTTPUserAgent` option, as described in the following blog [post](https://tshafer.com/blog/2023/07/posit-package-manager-linux), and then run the Linux installation code above. This is in order to obtain binary packages from the Posit Public Package Manager. If the `HTTPUserAgent` option is not amended it seems that source rather than binary packages are obtained for the Imports dependency packages. So for this case the full installation code is
 
 ```r
-# Installation code for Ubuntu Jammy Jellyfish users running R in the Terminal
+# Installation code for Ubuntu Noble Numbat users running R in the Terminal
 options(HTTPUserAgent = sprintf(
   "R/%s R (%s)",
   getRversion(),
@@ -63,7 +77,7 @@ options(HTTPUserAgent = sprintf(
 install.packages(
   'knitexercise',
   repos = c(
-    'https://remlapmot.r-universe.dev/bin/linux/noble-x86_64/4.5/',
+    'https://remlapmot.r-universe.dev/bin/linux/noble-x86_64/4.5',
     'https://p3m.dev/cran/__linux__/noble/latest',
     'https://cloud.r-project.org'
   )
@@ -78,7 +92,8 @@ For Ubuntu Noble Numbat on ARM please use
 install.packages(
   'knitexercise',
   repos = c(
-    'https://remlapmot.r-universe.dev/bin/linux/noble-aarch64/4.5/',
+    'https://remlapmot.r-universe.dev/bin/linux/noble-aarch64/4.5',
+    'https://cran.r-universe.dev/bin/linux/noble-aarch64/4.5',
     'https://cloud.r-project.org'
   )
 )
