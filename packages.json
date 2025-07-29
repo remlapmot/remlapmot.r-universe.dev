@@ -40,6 +40,10 @@
   {
     "package": "quickdag",
     "url": "https://github.com/jrgant/quickdag"
+  }, 
+  {
+    "package": "SASmarkdown",
+    "url": "https://github.com/Hemken/SASmarkdown"
   },
   {
     "package": "Statamarkdown",
