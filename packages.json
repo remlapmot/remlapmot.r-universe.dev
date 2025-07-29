@@ -12,11 +12,6 @@
     "url": "https://github.com/wjchulme/dd4d"
   },
   {
-    "package": "duckdb",
-    "url": "https://github.com/duckdb/duckdb-r",
-    "branch": "*release"
-  },
-  {
     "package": "ieugwasr",
     "url": "https://github.com/MRCIEU/ieugwasr",
     "branch": "*release"
