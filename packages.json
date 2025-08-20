@@ -56,6 +56,12 @@
     "url": "https://github.com/Hemken/SASmarkdown"
   },
   {
+    "package": "StanHeaders",
+    "url": "https://github.com/stan-dev/rstan",
+    "branch": "develop",
+    "subdir": "StanHeaders"
+  },
+  {
     "package": "Statamarkdown",
     "url": "https://github.com/Hemken/Statamarkdown"
   },
