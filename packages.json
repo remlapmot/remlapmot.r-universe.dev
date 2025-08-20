@@ -42,24 +42,8 @@
     "url": "https://github.com/jrgant/quickdag"
   },
   {
-    "package": "RcppParallel",
-    "url": "https://github.com/RcppCore/RcppParallel"
-  },
-  {
-    "package": "rstan",
-    "url": "https://github.com/stan-dev/rstan",
-    "branch": "develop",
-    "subdir": "rstan/rstan"
-  },
-  {
     "package": "SASmarkdown",
     "url": "https://github.com/Hemken/SASmarkdown"
-  },
-  {
-    "package": "StanHeaders",
-    "url": "https://github.com/stan-dev/rstan",
-    "branch": "develop",
-    "subdir": "StanHeaders"
   },
   {
     "package": "Statamarkdown",
