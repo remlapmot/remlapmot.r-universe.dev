@@ -40,7 +40,7 @@
   {
     "package": "quickdag",
     "url": "https://github.com/jrgant/quickdag"
-  }, 
+  },
   {
     "package": "RcppParallel",
     "url": "https://github.com/RcppCore/RcppParallel"
