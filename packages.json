@@ -35,7 +35,8 @@
   },
   {
     "package": "quickdag",
-    "url": "https://github.com/jrgant/quickdag"
+    "url": "https://github.com/remlapmot/quickdag",
+    "branch": "fix-02"
   },
   {
     "package": "SASmarkdown",
