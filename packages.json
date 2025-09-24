@@ -13,10 +13,6 @@
     "branch": "291283fd0620d458584108b05d9237104e060c31"
   },
   {
-    "package": "extrafont",
-    "url": "https://github.com/wch/extrafont"
-  },
-  {
     "package": "httpgd",
     "url": "https://github.com/nx10/httpgd"
   },
@@ -45,10 +41,6 @@
   {
     "package": "quickdag",
     "url": "https://github.com/jrgant/quickdag"
-  },
-  {
-    "package": "Rttf2pt1",
-    "url": "https://github.com/wch/Rttf2pt1"
   },
   {
     "package": "SASmarkdown",
