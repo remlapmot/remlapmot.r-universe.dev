@@ -47,6 +47,11 @@
     "url": "https://github.com/Hemken/SASmarkdown"
   },
   {
+    "package": "SEQTaRget",
+    "url": "https://github.com/CausalInference/SEQTaRget",
+    "subdir": "SEQTaRget"
+  },
+  {
     "package": "Statamarkdown",
     "url": "https://github.com/Hemken/Statamarkdown"
   },
