@@ -51,8 +51,7 @@
   },
   {
     "package": "parglm",
-    "url": "https://github.com/remlapmot/parglm",
-    "branch": "suggestions"
+    "url": "https://github.com/remlapmot/parglm"
   },
   {
     "package": "quarto",
