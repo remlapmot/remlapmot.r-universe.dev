@@ -42,7 +42,7 @@ linux_binary_repo <- function(universe){
 # For example: enable ropensci and cran repositories 
 options(repos = linux_binary_repo(c('ropensci', 'cran')))
 
-# Then install say TwoSampleMR with
+# Then install say knitexercise with
 install.packages("knitexercise")
 ```
 
@@ -55,6 +55,9 @@ options(repos = c(
   CRAN = sprintf("https://packagemanager.posit.co/cran/latest/bin/linux/noble-%s/%s", arch, rv),
   runiverse = sprintf("https://remlapmot.r-universe.dev/bin/linux/noble-%s/%s/", arch, rv)
 ))
+
+# Then install say knitexercise with
+install.packages("knitexercise")
 ```
 
 As `ubuntu:latest` changes you would need to change the codename `noble` within this. For example, r-universe will likely swap to Resolute Raccoon (`resolute`) soon.
