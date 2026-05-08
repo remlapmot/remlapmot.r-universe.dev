@@ -1,6 +1,6 @@
 # check packages.json
 check:
-    uv run --python 3.14 -m json.tool packages.json > /dev/null
+    uv run --python 3.14 -m json.tool packages.json > /dev/null && echo "JSON check passed"
 
 # add a package entry to packages.json in alphabetical order
 add pkgname url branch="" subdir="":
