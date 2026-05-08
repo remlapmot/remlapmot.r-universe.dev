@@ -70,3 +70,25 @@ WASM binaries for [WebR](https://docs.r-wasm.org/webr/latest/) users are availab
 install.packages('knitexercise',
   repos = c('https://remlapmot.r-universe.dev', 'https://repo.r-wasm.org'))
 ```
+
+## Justfile recipes for managing packages.json
+
+```sh
+# Add a package - required args only
+just add mypackage https://github.com/user/mypackage
+
+# With branch
+just add mr.simss https://github.com/amandaforde/mr.simss refs/pull/123/head
+
+# With subdir
+just add mypackage https://github.com/user/repo "" subdir-name
+
+# With both
+just add mypackage https://github.com/user/repo mybranch mysubdir
+
+# Remove a package
+just remove mypackage
+
+# Check packages.json is valid JSON
+just check
+```
