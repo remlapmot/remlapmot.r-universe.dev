@@ -72,8 +72,7 @@
   },
   {
     "package": "Statamarkdown",
-    "url": "https://github.com/Hemken/Statamarkdown",
-    "branch": "refs/pull/44/head"
+    "url": "https://github.com/Hemken/Statamarkdown"
   },
   {
     "package": "StepReg",
